@@ -1,0 +1,133 @@
+* {
+  outline: 1px solid red;
+}
+#div1 {
+  background-color: antiquewhite;
+
+  width: 50px;
+  height: 50px;
+
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+
+  margin-top: 15px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 25px;
+}
+
+#div2 {
+  background-color: aqua;
+  
+  width: 50px;
+  height: 50px;
+
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 100px;
+
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+#div3 {
+  background-color: blueviolet;
+  
+  width: 50px;
+  height: 50px;
+
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+
+  margin-top: 1px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 1px;
+}
+#div4 {
+  background-color: chartreuse;
+  
+  width: 50px;
+  height: 50px;
+
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 100px;
+
+  margin-top: 1px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 1px;
+}
+#div5 {
+  background-color: crimson;
+  
+  width: 50px;
+  height: 50px;
+
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+
+  margin-top: 126px;
+  margin-left: 126px;
+  margin-right: 126px;
+  margin-bottom: 126px;
+}
+#div6 {
+  background-color: darkslategray;
+  
+  width: 50px;
+  height: 50px;
+
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 100px;
+
+  margin-top: 1px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 1px;
+}
+#div7 {
+  background-color: hotpink;
+  
+  width: 50px;
+  height: 50px;
+
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+
+  margin-top: 12px;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-bottom: 12px;
+}
+#div8 {
+  background-color: indigo;
+  
+  width: 50px;
+  height: 50px;
+
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 100px;
+
+  margin-top: 43px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-bottom: 1px;
+}
