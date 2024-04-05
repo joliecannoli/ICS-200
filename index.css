@@ -1,3 +1,17 @@
 body {
-    background-color: lightblue;
+    background-color: lightgray;
+
 }
+
+h1 {
+    text-align: center;
+
+}
+
+div {
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+
