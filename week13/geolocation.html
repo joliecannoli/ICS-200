@@ -2,10 +2,32 @@
 <html lang="en"> 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, inital-scale=1-0">
+    <meta name="viewport" content="width=device-width, inital-scale=1-0">
     <title>Geolocation</title>
 </head>
 <body> 
+    <div id="navbar"><span>Geolocation API</span></div>
+    <div id="wrapper"> 
+        <button id="location-button">Get Coordinates</button>
+    <div id="output"></div>
+    </div>
+
+    <script>
+        document.getElementById('location-button').addEventListener('click', function () {
+            if ('geolocation' in navigator) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+                    document.getElementById('output').textContent = `Latitude: ${latitude}, Longitude: ${longitude}`;
+                }, function (error) {
+                    console.error('Error retrieving location:', error.message);
+                });
+            } else {
+                console.error('Geolocation is not supported by this browser.');
+            }
+        });
+</script>
 </body>
 </html>
 
